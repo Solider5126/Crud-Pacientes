@@ -31,7 +31,7 @@ function App() {
       <h1 className="text-center text-3xl uppercase font-extrabold my-3">
         Crud <span className="text-sky-500">Pacientes</span>{" "}
       </h1>
-      <section className="md:flex my-5">
+      <section className="md:flex my-5 container mx-auto ">
         <Formulario
           setAnimacion={setAnimacion}
           paciente={paciente}
